@@ -1,7 +1,7 @@
 import { mount } from '@vue/test-utils'
 import { nextTick } from 'vue'
 import { describe, it, expect } from 'vitest'
-import VirtualList from '@/components/virtual-list/VirtualList.vue'
+import VirtualList from '@/components/virtual-list/VirtualList.tsx'
 
 describe('VirtualList Component', () => {
 	it('renders correct number of visible items initially', async () => {
