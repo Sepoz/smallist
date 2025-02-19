@@ -5,12 +5,12 @@
     "files": [
         "dist"
     ],
-    "main": "./dist/smallist.umd.js",
-    "module": "./dist/smallist.es.js",
+    "main": "./dist/smallist.umd.cjs",
+    "module": "./dist/smallist.js",
     "exports": {
         ".": {
-            "import": "./dist/smallist.es.js",
-            "require": "./dist/smallist.umd.js"
+            "import": "./dist/smallist.js",
+            "require": "./dist/smallist.umd.cjs"
         }
     },
     "type": "module",
